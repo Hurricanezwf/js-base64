@@ -653,39 +653,3 @@ class Base64 {
 }
 
 export default Base64;
-
-//const STDBase64 = new Base64("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/");
-//const URLBase64 = new Base64("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_");
-
-
-
-// Define the string
-//var str = 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDJ7nyDsUNLNEaMOZRRDUZhfSzOKSGWrjC1xrWlaMaO4CrdIqY5jkyZgJlOFuJb97R4q9Nl3z1ToqZ8pSuhhsaVlgqZ7PH+PDg7+vWoICSLQVrkewLBuHgkiXoIFWgN+21V7rARojGqxYnHBQX9s1mYuY/xDiwhSMALTcrS/xW6MRvy/S5G0IJNBEgyou/qtj41gW9zqSH5K/vBzSnU1uy4aV9mOcFlxM/L+3yf6DXsiAPOoYfKZ1W4MlThPc/hf4JZdJh++SqscqnSVgD3teqrDGajXENchxjnkAc75K09HTJ9eUtcI+2KJWgMxofo4XB8u7rIx+ByuRWypmejdkNv'
-
-//var decodedbytes = STDBase64.decodeString(str);
-
-//console.log("-------------------------------------")
-//for (let i = 0; i < decodedbytes.length; i++) {
-//    console.log("B:", decodedbytes[i])
-//    if (i == 10) {
-//        break
-//    }
-//}
-
-//var s = URLBase64.encodeToString(decodedbytes)
-
-//console.log(s)
-
-//// Decode the String
-//var decodedString = STDBase64.decode(str);
-////console.log(decodedString);
-//
-
-//let input = new TextEncoder().encode("sdf");
-//var encodedString = STDBase64.encodeToString(input);
-//console.log(encodedString)
-//console.log(encodedString.length)
-//
-//var uint8array = STDBase64.decodeString(encodedString);
-//var s = String.fromCharCode(...uint8array)
-//console.log(s);
