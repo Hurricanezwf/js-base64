@@ -27,6 +27,14 @@ class Base64 {
         this.strict = false;
     }
 
+    withNoPadding() {
+        this.padChar = this.noPadding;
+    }
+
+    withStdPadding() {
+        this.padChar = this.stdPadding;
+    }
+
     // encodeToString(src Uint8Array) String
     encodeToString(src) {
         const type = typeof src
